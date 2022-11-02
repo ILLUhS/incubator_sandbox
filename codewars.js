@@ -15,3 +15,21 @@ function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i + i;
 }
+
+
+function digitize(n) {
+  //code here
+    var b = 0;
+    var arr = [];
+    if(n == 0)
+      arr = [0];
+    else{
+      while(n > 0)
+      {
+        b = n % 10;
+        arr.push(b);
+        n = parseInt(n / 10);
+      }
+    }
+  return arr;
+}
