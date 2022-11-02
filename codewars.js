@@ -9,3 +9,9 @@ function sum (numbers) {
       return 0;
     return sum;
 };
+
+
+function doubleInteger(i) {
+  // i will be an integer. Double it and return it.
+  return i + i;
+}
