@@ -34,3 +34,8 @@ function functionWithArgs (a, b) {
   console.log(a + b);
 }
 functionWithArgs (3, 5);
+
+
+function timesFive (n){
+  return n*5;
+}
