@@ -22,3 +22,9 @@ for(let i = 0; i < 5; i++)
 {
   myList.push(["Bread", i]);
 }
+
+
+function reusableFunction () {
+  console.log("Hi World");
+}
+reusableFunction ();
