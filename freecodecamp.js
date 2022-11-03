@@ -531,3 +531,69 @@ if(a < 0 || b < 0)
 }
 
 abTest(2,2);
+
+
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+switch (card){
+  case 2:
+    count +=1;
+    break;
+  case 3:
+    count +=1;
+    break;
+  case 4:
+    count +=1;
+    break;
+  case 5:
+    count +=1;
+    break;
+  case 6:
+    count +=1;
+    break;
+  case 7:
+    break;
+  case 8:
+    break;
+  case 9:
+    break;
+  case 10:
+    count -=1;
+    break;
+  case "J":
+    count -=1;
+    break;
+  case "Q":
+    count -=1;
+    break;
+  case "K":
+    count -=1;
+    break;
+  case "A":
+    count -=1;
+    break;
+}
+var out;
+if(count > 0)
+  out = count + " Bet";
+else
+  out = count + " Hold";
+  return out;
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+
+
+const myDog = {
+  // Only change code below this line
+  name: "dog",
+  legs: 4,
+  tails: 45,
+  friends: ["dog1", "dog2"]
+
+
+  // Only change code above this line
+};
